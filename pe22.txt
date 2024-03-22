@@ -1,0 +1,6 @@
+#Name: Robert Doherty
+#Email: robert.doherty24@myhunter.cuny.edu
+#Date: 2/4/24
+#An expression for a nand gate
+
+out = (not(in1 and in2))

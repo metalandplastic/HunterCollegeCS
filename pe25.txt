@@ -1,0 +1,7 @@
+#Name: Robert Doherty
+#Email: robert.doherty24@myhunter.cuny.edu
+#Date: 2/4/24
+#An expression for a nor gate
+
+out = (not(in1 or in2))
+
