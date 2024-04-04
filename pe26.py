@@ -6,8 +6,8 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-user_input = input("Enter borough name: ")
-user_file = input("Enter output file name: ")
+# user_input = input("Enter borough name: ")
+# user_file = input("Enter output file name: ")
 pop = pd.read_csv('nycHistPop.csv',skiprows=5)
 pop["Fraction"] = pop[user_input]/pop["Total"]
 pop.plot(x="Year",y="Fraction")
@@ -15,5 +15,6 @@ pop.plot(x="Year",y="Fraction")
 fig = plt.gcf()
 fig.savefig(user_file)
 
-#removed for Gradescope submission
-# plt.show()
+
+plt.show()
+

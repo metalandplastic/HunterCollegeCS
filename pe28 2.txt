@@ -1,0 +1,6 @@
+#Name: Robert Doherty
+#Email: robert.doherty24@myhunter.cuny.edu
+#Date: 2/4/24
+#echo example
+
+echo Hello, World
